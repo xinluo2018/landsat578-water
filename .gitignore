@@ -2,3 +2,6 @@ __pycache__/
 .DS_Store
 */.DS_Store
 .vscode
+data/gpkg/*
+data/dataset-l578/*
+!data/dataset-l578/l5_scene_01*
