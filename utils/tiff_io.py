@@ -24,9 +24,9 @@ def readTiff(path_in):
 
     if im_bands > 1:
         RS_Data = np.transpose(RS_Data, (1, 2, 0)).astype(np.float)  # 
-        return RS_Data,extent,im_proj,im_row,im_col,im_bands
+        return RS_Data,extent,im_geotrans,im_proj,im_row,im_col,im_bands
     else:
-        return RS_Data,extent,im_proj,im_row,im_col,im_bands
+        return RS_Data,extent,im_geotrans,im_proj,im_row,im_col,im_bands
 
 ###  .tiff image write
 def writeTiff(im_data, im_geotrans, im_proj, path_out):

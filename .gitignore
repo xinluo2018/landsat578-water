@@ -5,3 +5,4 @@ __pycache__/
 data/gpkg/*
 data/dataset-l578/*
 !data/dataset-l578/l5_scene_01*
+!data/gpkg/l5_scene_01*
