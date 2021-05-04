@@ -20,7 +20,7 @@ def readTiff(path_in):
     x_max = x_min + im_geotrans[1] * im_col
     y_max = im_geotrans[3]
     y_min = y_max + im_geotrans[5] * im_row
-    extent = (x_min,x_max, y_min, y_max)
+    extent = (x_min, x_max, y_min, y_max)
 
     if im_bands > 1:
         RS_Data = np.transpose(RS_Data, (1, 2, 0)).astype(np.float)  # 
