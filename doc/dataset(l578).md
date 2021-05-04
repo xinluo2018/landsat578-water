@@ -1,6 +1,4 @@
 ## <center>**Dataset**</center>  
-### Dataset in process
-![Distribution of the labled image ](../figures/dset_distribution.png)
 
 | **Landsat 8**    ||||    
 | ---|---|---|----|      
