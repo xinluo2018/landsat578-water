@@ -24,7 +24,7 @@ def plot_dset_one(inputs, truth, pre, binary_out=True, weights=None):
     clip_list = [ 2 for i in range(num_input)] + [0, 0]
     col_bands_list = [(2,1,0) for i in range(num_input)] +[[0,0,0],[0,0,0]]
     imsShow(img_list=patches_list, img_name_list=patches_name, \
-                    clip_list=clip_list, col_bands_list=col_bands_list)
+                    clip_list=clip_list, color_bands_list=col_bands_list)
     if weights:
         weights_name = ['weight_input_' + str(i) for i in range(num_input)]    
         format = [weight_name + ': {:f}' for weight_name in weights_name]
