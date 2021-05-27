@@ -3,7 +3,8 @@ __pycache__/
 */.DS_Store
 .vscode
 data/gpkg/*
-data/dataset-l578/*
+data/dataset-l578/*/*
 data/tmp/*
-!data/dataset-l578/l5_scene_01*
-!data/gpkg/l5_scene_01*
+!data/dataset-l578/scene/l5_scene_01*
+!data/dataset-l578/truth/l5_scene_01*
+!data/dataset-l578/gpkg/l5_scene_01*
