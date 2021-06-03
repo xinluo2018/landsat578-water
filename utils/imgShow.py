@@ -36,8 +36,8 @@ def imgShow(img, extent=None, color_bands=(2,1,0), \
             img_color_hist = np.percentile(img_color, [clip_percent, 100-clip_percent])
             img_color_clip = (img_color-img_color_hist[0])\
                                     /(img_color_hist[1]-img_color_hist[0]+0.0001)
+        img_color_clip = np.squeeze(img_color_clip)
         plt.imshow(np.clip(img_color_clip, 0, 1), extent=extent, vmin=0,vmax=1)
-
 
 def imsShow(img_list, img_name_list, clip_list=None, color_bands_list=None):
     ''' des: visualize multiple images.
