@@ -4,7 +4,7 @@ A tutorial about deep learning of the surface water features on the Landsat-5, -
 1. !!! 100 labeled landsat images.
 2. !!! Achieve high-accurate surface water mapping (oa/miou > 90%) by using deep ConvNet models.
 ### **Image labeling in process**
-Distribution of the labeled landsat images are below:
+Number of labeled image reach to 20!!
 ![Distribution of the labled image ](./figures/dset_distribution.png)
 
 
