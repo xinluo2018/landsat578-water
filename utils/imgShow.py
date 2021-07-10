@@ -4,6 +4,7 @@ import numpy as np
 def imgShow(img, extent=None, color_bands=(2,1,0), \
                     clip_percent=2, per_band_clip='False'):
     '''
+    update date: 2021.6.2
     Arguments:
         img: (row, col, band) or (row, col)
         num_bands: a list/tuple, [red_band,green_band,blue_band]
@@ -39,21 +40,32 @@ def imgShow(img, extent=None, color_bands=(2,1,0), \
         img_color_clip = np.squeeze(img_color_clip)
         plt.imshow(np.clip(img_color_clip, 0, 1), extent=extent, vmin=0,vmax=1)
 
-def imsShow(img_list, img_name_list, clip_list=None, color_bands_list=None):
+def imsShow(img_list, img_name_list, clip_list=None, \
+                                color_bands_list=None, axis=None, row=None, col=None):
     ''' des: visualize multiple images.
         input: 
             img_list: containes all images
             img_names_list: image names corresponding to the images
             clip_list: percent clips (histogram) corresponding to the images
             color_bands_list: color bands combination corresponding to the images
+            row, col: the row and col of the figure
     '''
     if not clip_list:
         clip_list = [0 for i in range(len(img_list))]
     if not color_bands_list:
         color_bands_list = [[2, 1, 0] for i in range(len(img_list))]
-    for i in range(len(img_list)):
-        plt.subplot(1, len(img_list), i+1)
-        plt.title(img_name_list[i])
-        imgShow(img=img_list[i],\
-                    color_bands=color_bands_list[i], clip_percent=clip_list[i])        
-        plt.axis('off')
+    if row == None:
+        row = 1
+    if col == None:
+        col = len(img_list)
+    for i in range(row):
+        for j in range(col):
+            ind = (i*col)+j
+            if ind == len(img_list):
+                break
+            plt.subplot(row, col, ind+1)
+            imgShow(img=img_list[ind], color_bands=color_bands_list[ind], \
+                                                                clip_percent=clip_list[ind])        
+            plt.title(img_name_list[ind])
+            if not axis:
+                plt.axis('off')
