@@ -109,6 +109,59 @@ var l8_region_20 = ee.Geometry.Rectangle(128.41, 72.06, 129.45, 72.36);
 var l8_scene_20 = ee.Image('LANDSAT/LC08/C01/T1_SR/LC08_130009_20190615').clip(l8_region_20);
 print('l8_scene_20:',l8_scene_20);
 
+// scene 21
+var l8_region_21 = ee.Geometry.Rectangle(75.63, 46.34, 76.09, 46.64);
+var l8_scene_21 = ee.Image('LANDSAT/LC08/C01/T1_SR/LC08_151028_20130516').clip(l8_region_21);
+print('l8_scene_21:',l8_scene_21);
+
+
+// scene 22
+var l8_region_22 = ee.Geometry.Rectangle(-39.23, -12.34, -38.88, -12.65);
+var l8_scene_22 = ee.Image('LANDSAT/LC08/C01/T1_SR/LC08_216069_20191202').clip(l8_region_22);
+print('l8_scene_22:',l8_scene_22);
+
+
+// scene 23
+var l8_region_23 = ee.Geometry.Rectangle(-116.34, 66.56, -115.55, 66.88);
+var l8_scene_23 = ee.Image('LANDSAT/LC08/C01/T1_SR/LC08_049013_20151002').clip(l8_region_23);
+print('l8_scene_23:',l8_scene_23);
+
+
+// scene 24
+var l8_region_24= ee.Geometry.Rectangle(55.06, 17.10, 55.43, 17.42);
+var l8_scene_24 = ee.Image('LANDSAT/LC08/C01/T1_SR/LC08_159048_20150903').clip(l8_region_24);
+print('l8_scene_24:',l8_scene_24);
+
+// scene 25
+var l8_region_25 = ee.Geometry.Rectangle(-20.88, 63.95, -20.13, 64.26);
+var l8_scene_25 = ee.Image('LANDSAT/LC08/C01/T1_SR/LC08_219015_20131019').clip(l8_region_25);
+print('l8_scene_25:',l8_scene_25);
+
+
+// scene 26
+var l8_region_26 = ee.Geometry.Rectangle(89.29, 32.13, 89.68, 32.45);
+var l8_scene_26 = ee.Image('LANDSAT/LC08/C01/T1_SR/LC08_139038_20170811').clip(l8_region_26);
+print('l8_scene_26:',l8_scene_26);
+
+
+// scene 27
+var l8_region_27 = ee.Geometry.Rectangle(-56.72, 51.03, -56.20, 51.35);
+var l8_scene_27 = ee.Image('LANDSAT/LC08/C01/T1_SR/LC08_005024_20170816').clip(l8_region_27);
+print('l8_scene_27:',l8_scene_27);
+
+// scene 28
+var l8_region_28 = ee.Geometry.Rectangle(135.84, -30.98, 136.24, -30.66);
+var l8_scene_28 = ee.Image('LANDSAT/LC08/C01/T1_SR/LC08_100081_20191019').clip(l8_region_28);
+print('l8_scene_28:',l8_scene_28);
+
+
+// scene 29
+var l8_region_29 = ee.Geometry.Rectangle(113.69, 71.66, 114.71, 71.95);
+var l8_scene_29 = ee.Image('LANDSAT/LC08/C01/T1_SR/LC08_138009_20140727').clip(l8_region_29);
+print('l8_scene_29:',l8_scene_29);
+
+
+
 
 
 
@@ -214,6 +267,64 @@ print('l7_scene_19', l7_scene_19)
 var l7_region_20 = ee.Geometry.Rectangle(119.94, 31.45, 120.31, 31.73);
 var l7_scene_20 = ee.Image('LANDSAT/LE07/C01/T1_SR/LE07_119038_20000301').clip(l7_region_20);
 print('l7_scene_20', l7_scene_20);
+
+// scene 21
+var l7_region_21 = ee.Geometry.Rectangle(104.44, 74.32, 105.63, 74.62);
+var l7_scene_21 = ee.Image('LANDSAT/LE07/C01/T1_SR/LE07_147007_20000711').clip(l7_region_21);
+print('l7_scene_21', l7_scene_21);
+
+
+// scene 22
+var l7_region_22 = ee.Geometry.Rectangle(48.53, 55.62, 49.13, 55.93);
+var l7_scene_22 = ee.Image('LANDSAT/LE07/C01/T1_SR/LE07_171021_20090728').clip(l7_region_22);
+print('l7_scene_22', l7_scene_22);
+
+
+// scene 23
+var l7_region_23 = ee.Geometry.Rectangle(-111.74, 40.64, -112.27, 41.03);
+var l7_scene_23 = ee.Image('LANDSAT/LE07/C01/T1_SR/LE07_038032_20160625').clip(l7_region_23);
+print('l7_scene_23', l7_scene_23);
+
+
+// scene 24
+var l7_region_24 = ee.Geometry.Rectangle(14.24, 49.66, 14.42, 49.76);
+var l7_scene_24 = ee.Image('LANDSAT/LE07/C01/T1_SR/LE07_191025_20000512').clip(l7_region_24);
+print('l7_scene_24', l7_scene_24);
+
+
+// scene 25
+var l7_region_25 = ee.Geometry.Rectangle(105.6, 28.72, 105.99, 29.04);
+var l7_scene_25 = ee.Image('LANDSAT/LE07/C01/T1_SR/LE07_128040_20000417').clip(l7_region_25);
+print('l7_scene_25', l7_scene_25);
+
+// scene 26
+var l7_region_26 = ee.Geometry.Rectangle(105.6, 28.72, 105.99, 29.04);
+var l7_scene_26 = ee.Image('LANDSAT/LE07/C01/T1_SR/LE07_182066_20020127').clip(l7_region_26);
+print('l7_scene_26', l7_scene_26);
+
+// scene 27
+var l7_region_27 = ee.Geometry.Rectangle(127.12, 53.78, 127.70, 54.10);
+var l7_scene_27 = ee.Image('LANDSAT/LE07/C01/T1_SR/LE07_120022_20020704').clip(l7_region_27);
+print('l7_scene_27', l7_scene_27);
+
+
+// scene 28
+var l7_region_28 = ee.Geometry.Rectangle(-83.29, 42.01, -82.80, 42.33);
+var l7_scene_28 = ee.Image( 'LANDSAT/LE07/C01/T1_SR/LE07_020031_19990715').clip(l7_region_28);
+print('l7_scene_28', l7_scene_28);
+
+// scene 29
+var l7_region_29 = ee.Geometry.Rectangle(-160.40, 61.8, -159.72, 62.10);
+var l7_scene_29 = ee.Image('LANDSAT/LE07/C01/T1_SR/LE07_075017_20010619').clip(l7_region_29);
+print('l7_scene_29', l7_scene_29);
+
+
+// scene 30
+var l7_region_30 = ee.Geometry.Rectangle(-71.51, 64.67, -72.33, 64.99);
+var l7_scene_30 = ee.Image('LANDSAT/LE07/C01/T1_SR/LE07_020015_20020824').clip(l7_region_30);
+print('l7_scene_30', l7_scene_30);
+
+
 
 
 
@@ -325,11 +436,69 @@ var l5_scene_20 = ee.Image('LANDSAT/LT05/C01/T1_SR/LT05_169032_20000204').clip(l
 print('l5_scene_20', l5_scene_20);
 
 
+// scene 21
+var l5_region_21 = ee.Geometry.Rectangle(-19.31, 64.11, -18.58, 64.4);
+var l5_scene_21 = ee.Image('LANDSAT/LT05/C01/T1_SR/LT05_218015_19930615').clip(l5_region_21);
+print('l5_scene_21', l5_scene_21);
+
+// scene 22
+var l5_region_22 = ee.Geometry.Rectangle(-69.89, 45.51, -69.39, 45.84);
+var l5_scene_22 = ee.Image('LANDSAT/LT05/C01/T1_SR/LT05_012028_20010618').clip(l5_region_22);
+print('l5_scene_22', l5_scene_22);
+
+// scene 23
+var l5_region_23 = ee.Geometry.Rectangle(150.66, -23.7, 151.05, -23.36);
+var l5_scene_23 = ee.Image('LANDSAT/LT05/C01/T1_SR/LT05_091076_20030719').clip(l5_region_23);
+print('l5_scene_23', l5_scene_23);
+
+
+// scene 24
+var l5_region_24 = ee.Geometry.Rectangle(-76.98, 53.02, -76.36, 53.35);
+var l5_scene_24 = ee.Image('LANDSAT/LT05/C01/T1_SR/LT05_018023_19870622').clip(l5_region_24);
+print('l5_scene_24', l5_scene_24);
+
+// scene 25
+var l5_region_25 = ee.Geometry.Rectangle(53.885, 68.016, 54.832, 68.354);
+var l5_scene_25 = ee.Image('LANDSAT/LT05/C01/T1_SR/LT05_173012_20060624').clip(l5_region_25);
+print('l5_scene_25', l5_scene_25);
+
+
+// scene 26
+var l5_region_26 = ee.Geometry.Rectangle(-44.34, -2.81, -43.96, -2.46);
+var l5_scene_26 = ee.Image('LANDSAT/LT05/C01/T1_SR/LT05_220062_19840620').clip(l5_region_26);
+print('l5_scene_26', l5_scene_26);
+
+// scene 27
+var l5_region_27 = ee.Geometry.Rectangle(-125.94, 50.38, -125.34, 50.74);
+var l5_scene_27 = ee.Image('LANDSAT/LT05/C01/T1_SR/LT05_049025_19890604').clip(l5_region_27);
+print('l5_scene_27', l5_scene_27);
+
+
+// scene 28
+var l5_region_28 = ee.Geometry.Rectangle(-62.19, -35.76, -61.76, -35.43);
+var l5_scene_28 = ee.Image('LANDSAT/LT05/C01/T1_SR/LT05_227085_19890721').clip(l5_region_28);
+print('l5_scene_28', l5_scene_28);
+
+// scene 29
+var l5_region_29 = ee.Geometry.Rectangle(173.79, 64.69, 174.53, 64.99);
+var l5_scene_29 = ee.Image('LANDSAT/LT05/C01/T1_SR/LT05_093015_19950727').clip(l5_region_29);
+print('l5_scene_29', l5_scene_29);
+
+// scene 30
+var l5_region_30 = ee.Geometry.Rectangle(116.82, 32.58, 117.23, 32.90);
+var l5_scene_30 = ee.Image('LANDSAT/LT05/C01/T1_SR/LT05_121037_20110117').clip(l5_region_30);
+print('l5_scene_30', l5_scene_30);
+
+
+
+
+
+
 
 //////////////////////////////////////////////////////////
 // ------------- Visualization -------------
 // --------- Landsat 8 -----------
-Map.setCenter(17.80, 42.54, 2);
+Map.setCenter(17.80, 42.54, 2.5);
 var empty = ee.Image().byte();
 // scene 01
 var l8_scene_01_outline = empty.paint({
@@ -451,6 +620,65 @@ var l8_scene_20_outline = empty.paint({
 Map.addLayer(l8_scene_20_outline, {palette: 'FF0000'}, 'l8_scene_20_outline');
 // Map.addLayer(l8_scene_20, {bands:['B5','B4','B3'], max:3000, min:0}, 'l8 scene 20');
 
+// scene 21
+var l8_scene_21_outline = empty.paint({
+    featureCollection: l8_region_21, color: 1, width: 3});
+Map.addLayer(l8_scene_21_outline, {palette: 'FF0000'}, 'l8_scene_21_outline');
+// Map.addLayer(l8_scene_21, {bands:['B5','B4','B3'], max:3000, min:0}, 'l8 scene 21');
+
+// scene 22
+var l8_scene_22_outline = empty.paint({
+    featureCollection: l8_region_22, color: 1, width: 3});
+Map.addLayer(l8_scene_22_outline, {palette: 'FF0000'}, 'l8_scene_22_outline');
+// Map.addLayer(l8_scene_22, {bands:['B5','B4','B3'], max:3000, min:0}, 'l8 scene 22');
+
+// scene 23
+var l8_scene_23_outline = empty.paint({
+    featureCollection: l8_region_23, color: 1, width: 3});
+Map.addLayer(l8_scene_23_outline, {palette: 'FF0000'}, 'l8_scene_23_outline');
+// Map.addLayer(l8_scene_23, {bands:['B5','B4','B3'], max:3000, min:0}, 'l8 scene 23');
+
+// scene 24
+var l8_scene_24_outline = empty.paint({
+    featureCollection: l8_region_24, color: 1, width: 3});
+Map.addLayer(l8_scene_24_outline, {palette: 'FF0000'}, 'l8_scene_24_outline');
+// Map.addLayer(l8_scene_24, {bands:['B5','B4','B3'], max:3000, min:0}, 'l8 scene 24');
+
+// scene 25
+var l8_scene_25_outline = empty.paint({
+    featureCollection: l8_region_25, color: 1, width: 3});
+Map.addLayer(l8_scene_25_outline, {palette: 'FF0000'}, 'l8_scene_25_outline');
+// Map.addLayer(l8_scene_25, {bands:['B5','B4','B3'], max:3000, min:0}, 'l8 scene 25');
+
+// scene 26
+var l8_scene_26_outline = empty.paint({
+    featureCollection: l8_region_26, color: 1, width: 3});
+Map.addLayer(l8_scene_26_outline, {palette: 'FF0000'}, 'l8_scene_26_outline');
+// Map.addLayer(l8_scene_26, {bands:['B5','B4','B3'], max:3000, min:0}, 'l8 scene 26');
+
+// scene 27
+var l8_scene_27_outline = empty.paint({
+    featureCollection: l8_region_27, color: 1, width: 3});
+Map.addLayer(l8_scene_27_outline, {palette: 'FF0000'}, 'l8_scene_27_outline');
+// Map.addLayer(l8_scene_27, {bands:['B5','B4','B3'], max:3000, min:0}, 'l8 scene 27');
+
+// scene 28
+var l8_scene_28_outline = empty.paint({
+    featureCollection: l8_region_28, color: 1, width: 3});
+Map.addLayer(l8_scene_28_outline, {palette: 'FF0000'}, 'l8_scene_28_outline');
+// Map.addLayer(l8_scene_28, {bands:['B5','B4','B3'], max:3000, min:0}, 'l8 scene 28');
+
+// scene 29
+var l8_scene_29_outline = empty.paint({
+    featureCollection: l8_region_29, color: 1, width: 3});
+Map.addLayer(l8_scene_29_outline, {palette: 'FF0000'}, 'l8_scene_29_outline');
+// Map.addLayer(l8_scene_29, {bands:['B5','B4','B3'], max:3000, min:0}, 'l8 scene 29');
+
+// scene 30
+var l8_scene_30_outline = empty.paint({
+    featureCollection: l8_region_30, color: 1, width: 3});
+Map.addLayer(l8_scene_30_outline, {palette: 'FF0000'}, 'l8_scene_30_outline');
+// Map.addLayer(l8_scene_30, {bands:['B5','B4','B3'], max:3000, min:0}, 'l8 scene 30');
 
 
 //// ---------- Landsat 7 -----------
@@ -574,6 +802,69 @@ var l7_scene_20_outline = empty.paint({
 Map.addLayer(l7_scene_20_outline, {palette: 'FFFF00'}, 'l7_scene_20_outline');
 // Map.addLayer(l7_scene_20, {bands:['B4','B3','B2'], max:3000, min:0}, 'l7 scene 20');
 
+// scene 21
+var l7_scene_21_outline = empty.paint({
+    featureCollection: l7_region_21, color: 1, width: 3});
+Map.addLayer(l7_scene_21_outline, {palette: 'FFFF00'}, 'l7_scene_21_outline');
+// Map.addLayer(l7_scene_21, {bands:['B4','B3','B2'], max:3000, min:0}, 'l7 scene 21');
+
+// scene 22
+var l7_scene_22_outline = empty.paint({
+    featureCollection: l7_region_22, color: 1, width: 3});
+Map.addLayer(l7_scene_22_outline, {palette: 'FFFF00'}, 'l7_scene_22_outline');
+// Map.addLayer(l7_scene_22, {bands:['B4','B3','B2'], max:3000, min:0}, 'l7 scene 22');
+
+// scene 23
+var l7_scene_23_outline = empty.paint({
+    featureCollection: l7_region_23, color: 1, width: 3});
+Map.addLayer(l7_scene_23_outline, {palette: 'FFFF00'}, 'l7_scene_23_outline');
+// Map.addLayer(l7_scene_23, {bands:['B4','B3','B2'], max:3000, min:0}, 'l7 scene 23');
+
+
+// scene 24
+var l7_scene_24_outline = empty.paint({
+    featureCollection: l7_region_24, color: 1, width: 3});
+Map.addLayer(l7_scene_24_outline, {palette: 'FFFF00'}, 'l7_scene_24_outline');
+// Map.addLayer(l7_scene_24, {bands:['B4','B3','B2'], max:3000, min:0}, 'l7 scene 24');
+
+
+// scene 25
+var l7_scene_25_outline = empty.paint({
+    featureCollection: l7_region_25, color: 1, width: 3});
+Map.addLayer(l7_scene_25_outline, {palette: 'FFFF00'}, 'l7_scene_25_outline');
+// Map.addLayer(l7_scene_25, {bands:['B4','B3','B2'], max:3000, min:0}, 'l7 scene 25');
+
+
+// scene 26
+var l7_scene_26_outline = empty.paint({
+    featureCollection: l7_region_26, color: 1, width: 3});
+Map.addLayer(l7_scene_26_outline, {palette: 'FFFF00'}, 'l7_scene_26_outline');
+// Map.addLayer(l7_scene_26, {bands:['B4','B3','B2'], max:3000, min:0}, 'l7 scene 26');
+
+// scene 27
+var l7_scene_27_outline = empty.paint({
+    featureCollection: l7_region_27, color: 1, width: 3});
+Map.addLayer(l7_scene_27_outline, {palette: 'FFFF00'}, 'l7_scene_27_outline');
+// Map.addLayer(l7_scene_27, {bands:['B4','B3','B2'], max:3000, min:0}, 'l7 scene 27');
+
+// scene 28
+var l7_scene_28_outline = empty.paint({
+    featureCollection: l7_region_28, color: 1, width: 3});
+Map.addLayer(l7_scene_28_outline, {palette: 'FFFF00'}, 'l7_scene_28_outline');
+// Map.addLayer(l7_scene_28, {bands:['B4','B3','B2'], max:3000, min:0}, 'l7 scene 28');
+
+// scene 29
+var l7_scene_29_outline = empty.paint({
+    featureCollection: l7_region_29, color: 1, width: 3});
+Map.addLayer(l7_scene_29_outline, {palette: 'FFFF00'}, 'l7_scene_29_outline');
+// Map.addLayer(l7_scene_29, {bands:['B4','B3','B2'], max:3000, min:0}, 'l7 scene 29');
+
+
+// scene 30
+var l7_scene_30_outline = empty.paint({
+    featureCollection: l7_region_30, color: 1, width: 3});
+Map.addLayer(l7_scene_30_outline, {palette: 'FFFF00'}, 'l7_scene_30_outline');
+// Map.addLayer(l7_scene_30, {bands:['B4','B3','B2'], max:3000, min:0}, 'l7 scene 30');
 
 
 // ---------- Landsat 5 ----------
@@ -699,5 +990,62 @@ var l5_scene_20_outline = empty.paint({
 Map.addLayer(l5_scene_20_outline, {palette: 'FF00FF'}, 'l5_scene_20_outline');
 // Map.addLayer(l5_scene_20, {bands:['B4','B3','B2'], max:3000, min:0}, 'l5 scene 20');
 
+// scene 21
+var l5_scene_21_outline = empty.paint({
+    featureCollection: l5_region_21, color: 1, width: 3});
+Map.addLayer(l5_scene_21_outline, {palette: 'FF00FF'}, 'l5_scene_21_outline');
+// Map.addLayer(l5_scene_21, {bands:['B4','B3','B2'], max:3000, min:0}, 'l5 scene 21');
 
+// scene 22
+var l5_scene_22_outline = empty.paint({
+    featureCollection: l5_region_22, color: 1, width: 3});
+Map.addLayer(l5_scene_22_outline, {palette: 'FF00FF'}, 'l5_scene_22_outline');
+// Map.addLayer(l5_scene_22, {bands:['B4','B3','B2'], max:3000, min:0}, 'l5 scene 22');
 
+// scene 23
+var l5_scene_23_outline = empty.paint({
+    featureCollection: l5_region_23, color: 1, width: 3});
+Map.addLayer(l5_scene_23_outline, {palette: 'FF00FF'}, 'l5_scene_23_outline');
+// Map.addLayer(l5_scene_23, {bands:['B4','B3','B2'], max:3000, min:0}, 'l5 scene 23');
+
+// scene 24
+var l5_scene_24_outline = empty.paint({
+    featureCollection: l5_region_24, color: 1, width: 3});
+Map.addLayer(l5_scene_24_outline, {palette: 'FF00FF'}, 'l5_scene_24_outline');
+// Map.addLayer(l5_scene_24, {bands:['B4','B3','B2'], max:3000, min:0}, 'l5 scene 24');
+
+// scene 25
+var l5_scene_25_outline = empty.paint({
+    featureCollection: l5_region_25, color: 1, width: 3});
+Map.addLayer(l5_scene_25_outline, {palette: 'FF00FF'}, 'l5_scene_25_outline');
+// Map.addLayer(l5_scene_25, {bands:['B4','B3','B2'], max:3000, min:0}, 'l5 scene 25');
+
+// scene 26
+var l5_scene_26_outline = empty.paint({
+    featureCollection: l5_region_26, color: 1, width: 3});
+Map.addLayer(l5_scene_26_outline, {palette: 'FF00FF'}, 'l5_scene_26_outline');
+// Map.addLayer(l5_scene_26, {bands:['B4','B3','B2'], max:3000, min:0}, 'l5 scene 26');
+
+// scene 27
+var l5_scene_27_outline = empty.paint({
+    featureCollection: l5_region_27, color: 1, width: 3});
+Map.addLayer(l5_scene_27_outline, {palette: 'FF00FF'}, 'l5_scene_27_outline');
+// Map.addLayer(l5_scene_27, {bands:['B4','B3','B2'], max:3000, min:0}, 'l5 scene 27');
+
+// scene 28
+var l5_scene_28_outline = empty.paint({
+    featureCollection: l5_region_28, color: 1, width: 3});
+Map.addLayer(l5_scene_28_outline, {palette: 'FF00FF'}, 'l5_scene_28_outline');
+// Map.addLayer(l5_scene_28, {bands:['B4','B3','B2'], max:3000, min:0}, 'l5 scene 28');
+
+// scene 29
+var l5_scene_29_outline = empty.paint({
+    featureCollection: l5_region_29, color: 1, width: 3});
+Map.addLayer(l5_scene_29_outline, {palette: 'FF00FF'}, 'l5_scene_29_outline');
+// Map.addLayer(l5_scene_29, {bands:['B4','B3','B2'], max:3000, min:0}, 'l5 scene 29');
+
+// scene 30
+var l5_scene_30_outline = empty.paint({
+    featureCollection: l5_region_30, color: 1, width: 3});
+Map.addLayer(l5_scene_30_outline, {palette: 'FF00FF'}, 'l5_scene_30_outline');
+// Map.addLayer(l5_scene_30, {bands:['B4','B3','B2'], max:3000, min:0}, 'l5 scene 30');

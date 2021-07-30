@@ -41,6 +41,7 @@ def writeTiff(im_data, im_geotrans, im_geosrs, path_out):
         im_data: tow dimentions (order: row, col),or three dimentions (order: row, col, band)
         im_geosrs: espg code for image spatial reference system.
     '''
+    im_data = np.squeeze(im_data)
     if 'int8' in im_data.dtype.name:
         datatype = gdal.GDT_Byte
     elif 'int16' in im_data.dtype.name:
